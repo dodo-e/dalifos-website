@@ -1,0 +1,49 @@
+body{
+    background-color: gainsboro;
+    font-family: sans-serif;
+}
+h1{
+    background-image: linear-gradient(#c0392b , #8e44ad);
+    font-size: 100px;
+    color: white;
+    height:120px ;
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+    display: block;
+    margin: auto;
+    font-family: Bradley Hand, cursive;
+    margin-bottom: 5px;
+}
+img{
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+.last-news{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.last-news p{
+    background-color: white;
+    margin: center;
+    width: 400px;
+    font-size: 35px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+@media screen and (max-width:600px) {
+    background-color: white;
+    width: fit-content;
+    font-size: 35px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+  }
+}
+.last-news img{
+    height: 350px;
+    width: 350px;
+    display: block;
+    margin: auto;
+}
