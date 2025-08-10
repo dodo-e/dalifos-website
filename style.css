@@ -12,7 +12,7 @@ h1{
     height: fit-content;
     display: block;
     margin: auto;
-    font-family: Bradley Hand, cursive;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 5px;
 }
 img{
@@ -20,11 +20,11 @@ img{
     display: block;
     margin: auto;
 }
-.last-news{
+.all-main-dev{
     background-color: whitesmoke;
     border-radius: 10px;
 }
-.last-news p{
+.all-main-dev p{
     background-color: white;
     margin: center;
     width: 400px;
@@ -32,18 +32,45 @@ img{
     border-radius: 10px;
     display: inline-block;
     margin: 10px;
-@media screen and (max-width:600px) {
+    transition: 0.5s;
+}
+.all-main-dev p:hover{
+    transform: scale(105%) ;
+    font-size: 40px;
+    cursor: pointer;
+}
+.all-main-dev a{
+text-decoration: none;
+color: black;
+}
+.all-main-dev h1{
+color: black;
+font-size: 40px;
+background-image: none;
+}
+.all-main-dev video{
+width: 500px;
+height: 450px;
+display: block;
+margin: auto;
+}
+@media screen and (max-width: 750px) {
+.all-main-dev {
     background-color: white;
-    width: fit-content;
-    font-size: 35px;
+    width: 500px;
+    font-size: 25px;
     border-radius: 10px;
-    display: inline-block;
-    margin: 10px;
+    display: block;
+    margin: 0 auto;
   }
 }
-.last-news img{
+.all-main-dev img{
     height: 350px;
     width: 350px;
     display: block;
     margin: auto;
+}
+.footer{
+    background-color: whitesmoke;
+    font-size: 24px; 
 }
